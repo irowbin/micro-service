@@ -2,12 +2,10 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
-using Catalog.API.data.interfaces;
 using Catalog.API.Entities;
 using Catalog.API.repositories.interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using MongoDB.Driver;
 
 namespace Catalog.API.Controllers
 {

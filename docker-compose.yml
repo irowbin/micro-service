@@ -25,11 +25,11 @@ services:
       context: .
       dockerfile: src/basket/Basket.API/Dockerfile
 #
-#  ordering.api:
-#    image: ${DOCKER_REGISTRY-}orderingapi
-#    build:
-#      context: .
-#      dockerfile: src/Ordering/Ordering.API/Dockerfile
+  ordering.api:
+    image: ${DOCKER_REGISTRY-}orderingapi
+    build:
+      context: .
+      dockerfile: src/ordering/Ordering.API/Dockerfile
 #
 #  apigateway:
 #    image: ${DOCKER_REGISTRY-}apigateway

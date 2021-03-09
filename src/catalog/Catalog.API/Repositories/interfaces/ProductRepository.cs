@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Security.Cryptography;
 using System.Threading.Tasks;
 using Catalog.API.data.interfaces;
 using Catalog.API.Entities;
